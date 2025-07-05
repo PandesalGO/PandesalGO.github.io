@@ -1,0 +1,14 @@
+body {
+    color: white;
+    font-size: 20px;
+}
+
+.visible-only-1k {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .visible-only-1k {
+      display: block;
+    }
+}
