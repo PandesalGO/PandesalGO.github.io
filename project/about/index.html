@@ -8,39 +8,45 @@
   <link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="container-fluid" style="background-color: #0f224a; padding: 1%;">
-    <div class="container text-center">
-      <div class="row align-items-center">
-        <div class="col-md-auto">
-          <a href="../index.html" class="text-white text-decoration-none">
-            <img src="https://store.pokemongo.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2FLogo-Outline.png&w=96&q=75" alt="Pandesal GO">
-          </a>
-          </div>
-        <div class="col-md-auto visible-only-1k" style="padding: 1% 5%;">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-md-auto">
-                <a href="./index.html" class="text-white text-decoration-none">About</a>
-              </div>
-              <div class="col-md-auto">
-                <a href="../news/index.html" class="text-white text-decoration-none">News</a>
-              </div>
-              <div class="col-md-auto">
-                <a href="../cart/index.html" class="text-white text-decoration-none">Web store</a>
-              </div>
-              <div class="col-md-auto">
-                <a href="#" class="text-white text-decoration-none" data-bs-toggle="modal" data-bs-target="#voucherModal" hover="">
-                  Redeem a Voucher
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f224a;">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="https://store.pokemongo.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2FLogo-Outline.png&w=96&q=75" 
+            alt="Pandesal GO" width="100%" height="100%">
+      </a>
+
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href=".">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="..">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#voucherModal">Redeem a Voucher</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./login.html">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./signup.html">Sign Up</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
 <div class="modal fade" id="voucherModal" tabindex="-1" aria-labelledby="voucherModalLabel" aria-hidden="true">
   <div class="modal-dialog">
