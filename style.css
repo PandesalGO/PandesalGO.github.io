@@ -13,6 +13,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 Body {
   background-color: rgb(247, 247, 179);
 }
@@ -105,4 +106,41 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+=======
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    border-width: 1px 0;
+}
+
+.Footer-module_grid__qz-6E {
+    box-sizing: content-box;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Lato, "Lato Fallback", sans-serif, sans-serif;
+    letter-spacing: 0.1px;
+    text-align: center;
+    line-height: 28px;
+    max-width: 1700px;
+    padding: 0, 48px, 48px, 0;
+    
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: bold;
+>>>>>>> 933f6116ee849bce1e1d37b0c0574068e24e20b5
 }
