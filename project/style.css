@@ -139,3 +139,7 @@ div.desc {
 h2 {
   font-weight: bold;
 }
+
+.text-dark {
+  font-size: 18px;
+}
