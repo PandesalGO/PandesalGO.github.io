@@ -26,6 +26,7 @@ body {
     font-weight: 500;
     font-family: Lato, "Lato Fallback", sans-serif, sans-serif;
     letter-spacing: 0.1px;
+    text-align: center;
     line-height: 28px;
     max-width: 1700px;
     padding: 0, 48px, 48px, 0;
