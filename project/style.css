@@ -1,8 +1,3 @@
-body {
-    color: white;
-    font-size: 20px;
-}
-
 .visible-only-1k {
     display: none;
 }
@@ -13,8 +8,7 @@ body {
     }
 }
 
-<<<<<<< HEAD
-Body {
+body {
   background-color: rgb(247, 247, 179);
 }
 h4 {
@@ -102,11 +96,13 @@ div.desc {
     margin: 10px 0;
   }
 }
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
-=======
+}
+
 .b-example-divider {
     width: 100%;
     height: 3rem;
@@ -142,5 +138,4 @@ div.desc {
 
 h2 {
   font-weight: bold;
->>>>>>> 933f6116ee849bce1e1d37b0c0574068e24e20b5
 }
